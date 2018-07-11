@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    Current version: <span id="version">vX.Y.Z</span>
+    <div id="messages"></div>
+    <script>
+      let version = window.location.hash.substring(1);
+      console.log('dd'+window.location.hash)
+      document.getElementById('version').innerText = version;
+    </script>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>hello word</title>
 </head>
 <body>
 
