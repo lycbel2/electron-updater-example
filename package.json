@@ -1,10 +1,11 @@
 {
   "name": "electron-updater-example",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
   "scripts": {
+    "start" : "electron .",
     "publish": "build -p always"
   },
   "devDependencies": {
