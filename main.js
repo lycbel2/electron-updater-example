@@ -6,6 +6,8 @@ const log = require('electron-log');
 const {autoUpdater} = require("electron-updater");
 
 
+
+
 if(autoUpdater){
   console.log("updator aviliable")
 }
@@ -94,11 +96,13 @@ autoUpdater.on('update-downloaded', (info) => {
   sendStatusToWindow('Update downloaded');
   autoUpdater.quitAndInstall(true, true)
 });
+app.on('error', function (error) {
+  sendStatusToWindow('Update downloaded');
+})
 app.on('ready', function() {
   // Create the Menu
   const menu = Menu.buildFromTemplate(template);
   Menu.setApplicationMenu(menu);
-
   createDefaultWindow();
 });
 app.on('window-all-closed', () => {

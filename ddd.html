@@ -4,6 +4,8 @@
     Current version: <span id="version">vX.Y.Z</span>
     <div id="messages"></div>
     <script>
+      var {studento} = require("./lol.js");
+      console.log(studento.name)
       let version = window.location.hash.substring(1);
       console.log('ddversion 9'+window.location.hash)
       document.getElementById('version').innerText = version;
