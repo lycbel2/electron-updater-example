@@ -18,13 +18,14 @@
   },
   "build": {
     "appId": "com.github.lycbel2.electronupdaterexample",
-    "publish": [{
-      "provider": "github",
-      "owner": "lycbel2",
-      "repo": "electron-updater-example"
-    }],
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "lycbel2",
+        "repo": "electron-updater-example"
+      }
+    ],
     "mac": {
-      "category": "your.app.category.type",
       "target": [
         "zip",
         "dmg"
@@ -34,6 +35,27 @@
       "category": "your.app.category.type",
       "target": [
        "exe"
+        ]
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 410,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 130,
+          "y": 150,
+          "type": "file"
+        }
+      ]
+    },
+    "linux": {
+
+      "target": [
+        "deb"
       ]
     }
   }
