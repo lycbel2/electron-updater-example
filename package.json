@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.6.6",
+  "version": "0.6.7",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -26,8 +26,34 @@
     "mac": {
       "category": "your.app.category.type",
       "target": [
-        "zip",
         "dmg"
+      ]
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 410,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 130,
+          "y": 150,
+          "type": "file"
+        }
+      ]
+    },
+    "mac": {
+      "icon": "build/icons/icon.icns"
+    },
+    "win": {
+      "icon": "build/icons/icon.ico"
+    },
+    "linux": {
+      "icon": "build/icons",
+      "target": [
+        "deb"
       ]
     }
   }
