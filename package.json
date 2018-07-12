@@ -1,6 +1,7 @@
 {
   "name": "electron-updater-example",
-  "version": "0.7.0",
+  "version": "0.7.3",
+
   "main": "main.js",
   "description": "electron-updater example project",
   "author": { "name" : "Barney Rubble"
@@ -9,7 +10,7 @@
   },
   "scripts": {
     "start" : "electron .",
-    "publish": "build -mwl -p always"
+    "publish": "build -w -p always"
   },
   "devDependencies": {
     "electron": "^1.7.9",
