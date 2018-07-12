@@ -1,12 +1,12 @@
 {
   "name": "electron-updater-example",
-  "version": "0.6.6",
+  "version": "0.6.7.2",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
   "scripts": {
     "start" : "electron .",
-    "publish": "build -p always"
+    "publish": "build -mwl -p always"
   },
   "devDependencies": {
     "electron": "^1.7.9",
@@ -28,6 +28,12 @@
       "target": [
         "zip",
         "dmg"
+      ]
+    },
+    "win": {
+      "category": "your.app.category.type",
+      "target": [
+       "exe"
       ]
     }
   }
