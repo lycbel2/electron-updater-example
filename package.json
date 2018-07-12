@@ -1,9 +1,12 @@
 {
   "name": "electron-updater-example",
-  "version": "0.6.7",
+  "version": "0.6.8",
   "main": "main.js",
   "description": "electron-updater example project",
-  "author": "Matt Haggard",
+  "author": { "name" : "Barney Rubble"
+  , "email" : "b@rubble.com"
+  , "url" : "http://barnyrubble.tumblr.com/"
+  },
   "scripts": {
     "start" : "electron .",
     "publish": "build -mwl -p always"
