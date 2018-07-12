@@ -3,9 +3,12 @@
   "version": "0.7.1",
   "main": "main.js",
   "description": "electron-updater example project",
-  "author": "Matt Haggard",
+  "author": { "name" : "Barney Rubble"
+  , "email" : "b@rubble.com"
+  , "url" : "http://barnyrubble.tumblr.com/"
+  },
   "scripts": {
-    "start": "electron .",
+    "start" : "electron .",
     "publish": "build -mwl -p always"
   },
   "devDependencies": {
@@ -30,7 +33,6 @@
         "zip",
         "dmg"
       ]
-
     },
     "dmg": {
       "contents": [
@@ -46,9 +48,6 @@
           "type": "file"
         }
       ]
-    },
-    "win": {
-
     },
     "linux": {
 

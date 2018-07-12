@@ -5,6 +5,10 @@ const {app, BrowserWindow, Menu, protocol, ipcMain} = require('electron');
 const log = require('electron-log');
 const {autoUpdater} = require("electron-updater");
 
+
+if(autoUpdater){
+  console.log("updator aviliable")
+}
 //-------------------------------------------------------------------
 // Logging
 //
@@ -16,7 +20,7 @@ const {autoUpdater} = require("electron-updater");
 autoUpdater.logger = log;
 autoUpdater.logger.transports.file.level = 'info';
 log.info('App starting...');
-
+console.log('i am here')
 //-------------------------------------------------------------------
 // Define the menu
 //
@@ -55,7 +59,7 @@ if (process.platform === 'darwin') {
 let win;
 
 function sendStatusToWindow(text) {
-  log.info(text);
+
   win.webContents.send('message', text);
 }
 function createDefaultWindow() {
@@ -71,7 +75,8 @@ autoUpdater.on('checking-for-update', () => {
   sendStatusToWindow('Checking for update...');
 })
 autoUpdater.on('update-available', (info) => {
-  sendStatusToWindow('Update available.');
+  console.log('sssssss')
+  sendStatusToWindow('sssssss'+JSON.stringify(info)+'Update available.');
 })
 autoUpdater.on('update-not-available', (info) => {
   sendStatusToWindow('Update not available.');
@@ -87,6 +92,7 @@ autoUpdater.on('download-progress', (progressObj) => {
 })
 autoUpdater.on('update-downloaded', (info) => {
   sendStatusToWindow('Update downloaded');
+  autoUpdater.quitAndInstall(true, true)
 });
 app.on('ready', function() {
   // Create the Menu
