@@ -20,3 +20,19 @@ exports.set = set
 exports.get = get
 exports.mm = mm;
 exports.studento = studento;
+
+class Student{
+  constructor(name){
+    this.name = name;
+  }
+
+  set setName(name){
+    this.name = name;
+  }
+
+  get say(){
+    return this.name;
+  }
+}
+
+exports.stu = Student;
