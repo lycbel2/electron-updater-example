@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.7.8",
+  "version": "0.7.9",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": {
@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "publish": "build -m -p always"
+    "publish": "build -mw -p always"
   },
   "devDependencies": {
     "electron": "^2.0.4",
