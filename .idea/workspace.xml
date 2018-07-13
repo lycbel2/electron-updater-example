@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711c99da-3dba-416d-a869-fabf685c0d5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,15 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="lol.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../lol.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AppUpdater.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/electron-updater/out/AppUpdater.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,10 +35,15 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="190">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="latest.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/latest.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
@@ -72,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/node_modules/electron/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -85,15 +79,6 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/@types/node/index.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13500">
-              <caret line="925" column="12" selection-start-line="925" selection-start-column="12" selection-end-line="925" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -117,6 +102,7 @@
         <option value="$PROJECT_DIR$/node_modules/electron-updater/out/AppUpdater.js" />
         <option value="$PROJECT_DIR$/../lol.html" />
         <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/dist/latest-mac.yml" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -160,93 +146,6 @@
               <item name="electron-updater-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="electron-updater-example" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electron-updater-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electron-updater-example" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="mac" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electron-updater-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electron-updater-example" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="mac" type="462c0819:PsiDirectoryNode" />
-              <item name="electron-updater-example.app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electron-updater-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electron-updater-example" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="mac" type="462c0819:PsiDirectoryNode" />
-              <item name="electron-updater-example.app" type="462c0819:PsiDirectoryNode" />
-              <item name="Contents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electron-updater-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electron-updater-example" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="mac" type="462c0819:PsiDirectoryNode" />
-              <item name="electron-updater-example.app" type="462c0819:PsiDirectoryNode" />
-              <item name="Contents" type="462c0819:PsiDirectoryNode" />
-              <item name="Frameworks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electron-updater-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electron-updater-example" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="mac" type="462c0819:PsiDirectoryNode" />
-              <item name="electron-updater-example.app" type="462c0819:PsiDirectoryNode" />
-              <item name="Contents" type="462c0819:PsiDirectoryNode" />
-              <item name="Frameworks" type="462c0819:PsiDirectoryNode" />
-              <item name="Squirrel.framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electron-updater-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electron-updater-example" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="mac" type="462c0819:PsiDirectoryNode" />
-              <item name="electron-updater-example.app" type="462c0819:PsiDirectoryNode" />
-              <item name="Contents" type="462c0819:PsiDirectoryNode" />
-              <item name="Frameworks" type="462c0819:PsiDirectoryNode" />
-              <item name="Squirrel.framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Headers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electron-updater-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electron-updater-example" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="mac" type="462c0819:PsiDirectoryNode" />
-              <item name="electron-updater-example.app" type="462c0819:PsiDirectoryNode" />
-              <item name="Contents" type="462c0819:PsiDirectoryNode" />
-              <item name="Frameworks" type="462c0819:PsiDirectoryNode" />
-              <item name="Squirrel.framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Versions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electron-updater-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electron-updater-example" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="mac" type="462c0819:PsiDirectoryNode" />
-              <item name="electron-updater-example.app" type="462c0819:PsiDirectoryNode" />
-              <item name="Contents" type="462c0819:PsiDirectoryNode" />
-              <item name="Frameworks" type="462c0819:PsiDirectoryNode" />
-              <item name="Squirrel.framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Versions" type="462c0819:PsiDirectoryNode" />
-              <item name="Current" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="electron-updater-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="electron-updater-example" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="mac" type="462c0819:PsiDirectoryNode" />
-              <item name="electron-updater-example.app" type="462c0819:PsiDirectoryNode" />
-              <item name="Contents" type="462c0819:PsiDirectoryNode" />
-              <item name="Frameworks" type="462c0819:PsiDirectoryNode" />
-              <item name="Squirrel.framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Versions" type="462c0819:PsiDirectoryNode" />
-              <item name="Current" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="electron-updater-example" type="b2602c69:ProjectViewProjectNode" />
@@ -414,15 +313,15 @@
       <workItem from="1531377175324" duration="1396000" />
       <workItem from="1531381638035" duration="1257000" />
       <workItem from="1531383651554" duration="6303000" />
-      <workItem from="1531448501750" duration="3775000" />
+      <workItem from="1531448501750" duration="5058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27004000" />
+    <option name="totallyTimeSpent" value="28287000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="193" y="161" width="1920" height="977" extended-state="0" />
+    <frame x="169" y="87" width="1920" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -433,12 +332,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33409092" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.56704545" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32935324" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.42885572" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4284091" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2683706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26783812" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -592,13 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/latest-mac.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -611,9 +503,6 @@
           <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/latest.yml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/mac/electron-updater-example.app/Contents/Frameworks/electron-updater-example Helper.app/Contents/_CodeSignature/CodeResources">
       <provider selected="true" editor-type-id="text-editor">
@@ -711,9 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bluebird/js/release/promise.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/electron-updater-example Setup 0.6.7.exe.blockmap">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -744,7 +630,7 @@
     <entry file="file://$PROJECT_DIR$/node_modules/electron/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -766,10 +652,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bluebird/js/release/promise.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/latest.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/latest-mac.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="190">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
