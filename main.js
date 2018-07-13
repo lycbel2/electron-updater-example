@@ -97,7 +97,7 @@ autoUpdater.on('update-downloaded', (info) => {
   autoUpdater.quitAndInstall(true, true)
 });
 app.on('error', function (error) {
-  sendStatusToWindow('Update downloaded');
+  sendStatusToWindow('err Update downloaded');
 })
 app.on('ready', function() {
   // Create the Menu
