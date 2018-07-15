@@ -1,33 +1,26 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
   <title>Electron Updater Example</title>
 </head>
 <body>
-  Current version: <span id="version">vX.Y.Z</span>
-  <div id="messages"></div>
+Current version: <span id="version">vX.Y.Z</span>
+<div id="messages"></div>
 <script>
-  var {studento} = require("./lol.js");
-  var ss = require("./lol.js").studento;
-  ss.name = 1;
-
-
-  console.log(studento.name)
-// Display the current version
-let version = window.location.hash.substring(1);
-console.log('aaa'+window.location.hash)
-document.getElementById('version').innerText = version;
-
-// Listen for messages
-const {ipcRenderer} = require('electron');
-ipcRenderer.on('message', function(event, text) {
-  var container = document.getElementById('messages');
-  var message = document.createElement('div');
-  message.innerHTML = text;
-  container.appendChild(message);
-})
+  // Display the current version
+  let version = window.location.hash.substring(1);
+  console.log('aaa'+window.location.hash)
+  document.getElementById('version').innerText = version;
+  // Listen for messages
+  const {ipcRenderer} = require('electron');
+  ipcRenderer.on('message', function(event, text) {
+    var container = document.getElementById('messages');
+    var message = document.createElement('div');
+    message.innerHTML = text;
+    container.appendChild(message);
+  })
 </script>
 
-  <a href="ddd.html#version1.1.1"> click</a>
+<a href="ddd.html#version1.1.1"> click</a>
 </body>
 </html>

@@ -6,7 +6,6 @@ const log = require('electron-log');
 const {autoUpdater} = require("electron-updater");
 const {Updater } = require('./lol.js');
 
-
 //-------------------------------------------------------------------
 // Logging
 //
@@ -94,12 +93,9 @@ app.on('window-all-closed', () => {
 //-------------------------------------------------------------------
 app.on('ready', function()  {
   sendStatusToWindow('herllo really')
-
   var lol = Updater.getInstance(win,app);
-  lol.onStart().then()
-
-
-
+  lol.onStart().then();
+  console.log(lol.win===win)
 });
 
 //-------------------------------------------------------------------
