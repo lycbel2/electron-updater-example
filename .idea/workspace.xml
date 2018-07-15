@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="711c99da-3dba-416d-a869-fabf685c0d5c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ddd.html" beforeDir="false" afterPath="$PROJECT_DIR$/ddd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lol.js" beforeDir="false" afterPath="$PROJECT_DIR$/lol.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version.html" beforeDir="false" afterPath="$PROJECT_DIR$/version.html" afterDir="false" />
-    </list>
+    <list default="true" id="711c99da-3dba-416d-a869-fabf685c0d5c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +50,8 @@
       <file leaf-file-name="version.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/version.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="345">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -147,8 +139,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="51" />
-    <option name="y" value="181" />
+    <option name="x" value="84" />
+    <option name="y" value="159" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
   </component>
@@ -289,15 +281,15 @@
       <workItem from="1531381638035" duration="1257000" />
       <workItem from="1531383651554" duration="6303000" />
       <workItem from="1531448501750" duration="28044000" />
-      <workItem from="1531625408588" duration="15291000" />
+      <workItem from="1531625408588" duration="15591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66564000" />
+    <option name="totallyTimeSpent" value="66864000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="181" width="1920" height="1057" extended-state="0" />
+    <frame x="130" y="23" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -309,11 +301,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3284091" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35208333" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35208333" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.428125" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16506922" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16506922" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -642,8 +634,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/version.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="345">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
         </state>
       </provider>
     </entry>
